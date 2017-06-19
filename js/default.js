@@ -1,5 +1,5 @@
-var number = Math.floor(Math.random()*3);
-var answer = parseInt(window.prompt('数あてゲーム！0～3を入力してください！'));
+var number = Math.floor(Math.random()*13);
+var answer = parseInt(window.prompt('数あてゲーム！0～13を入力してください！'));
 
 var message;
 if(answer === number){
@@ -9,7 +9,7 @@ if(answer === number){
 }else if (number < answer){
   message = 'ざんね～ん。もっと小さいよ！( *´艸｀)';
 }else{
-  message = '0~3の数字を入力してくださいな( ..)φ';
+  message = '0~13の数字を入力してくださいな( ..)φ';
 }
 
 document.getElementById('choice').textContent = message;
