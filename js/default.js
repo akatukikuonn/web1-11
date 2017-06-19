@@ -1,11 +1,11 @@
 var number = Math.floor(Math.random()*13);
-var answer = parseInt(window.prompt('数あてゲーム！0～13を入力してください！'));
+var answer = parseInt(window.prompt('数あてゲーム！0～12を入力してください！'));
 while(1)
 {
   
 var message;
 if(answer === number){
-  message = 'あたり！Σ(･ω･ﾉ)ﾉ！';
+  message ='あたり！Σ(･ω･ﾉ)ﾉ！';
   break;
 }
   else if (answer < number){
@@ -15,7 +15,7 @@ if(answer === number){
  result =window.confirm('ざんね～ん。もっと小さいよ！( *´艸｀)');
 }
  else{
- result =window.confirm('0~13の数字を入力してくださいな( ..)φ');
+ result =window.confirm('0~12の数字を入力してくださいな( ..)φ');
 }
 if (result === true)
   result=0;
