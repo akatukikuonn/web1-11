@@ -9,13 +9,13 @@ if(answer === number){
   break;
 }
   else if (answer < number){
-  message =window.cofirm( 'ざんね～ん。もっと大きいよ！( *´艸｀)');
+  result = window.confirm('ざんね～ん。もっと大きいよ！( *´艸｀)');
 }
   else if (number < answer){
-  message =window.cofirm ('ざんね～ん。もっと小さいよ！( *´艸｀)');
+ result =window.confirm('ざんね～ん。もっと小さいよ！( *´艸｀)');
 }
  else{
-  message =window.cofirm ('0~13の数字を入力してくださいな( ..)φ');
+ result =window.confirm('0~13の数字を入力してくださいな( ..)φ');
 }
 if (result === true)
   result=0;
