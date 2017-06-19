@@ -17,7 +17,7 @@ if(answer === number){
  else{
   message =window.cofirm ('0~13の数字を入力してくださいな( ..)φ');
 }
-if (result == ture)
+if (result == true)
   result=0;
   else break;
 }
