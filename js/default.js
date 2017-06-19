@@ -3,7 +3,7 @@ var answer = parseInt(window.prompt('数あてゲーム！0～12を入力して�
 
 var message;
 if(answer === number){
-  message ='あたり！Σ(･ω･ﾉ)ﾉ！';
+  message = window.confirm('あたり！Σ(･ω･ﾉ)ﾉ！');
 }
   else if (answer < number){
   result = window.confirm('ざんね～ん。もっと大きいよ！( *´艸｀)');
