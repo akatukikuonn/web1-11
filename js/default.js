@@ -1,5 +1,5 @@
 var number = Math.floor(Math.random()*13);
-var result 0;
+var result=0;
 var answer = parseInt(window.prompt('数あてゲーム！0～12を入力してください！'));
 while(1)
 {
